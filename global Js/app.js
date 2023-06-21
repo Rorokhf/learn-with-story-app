@@ -51,15 +51,14 @@ searchInput.addEventListener("input", (e) => {
 });
 
 ////////////////////////change name ////////////////////////////////////////
-const Username=document.querySelector('.page h3');
+// const Username=document.querySelector('.page h3');
 
-var getName=JSON.parse(localStorage.getItem('userInfo'));
+// var getName=JSON.parse(localStorage.getItem('userInfo'));
 
-Username.textContent=`${getName.userName}`;
+// Username.textContent=`${getName.userName}`;
 /////////////////////////logout //////////////////////////////////////////////////
-const logoutBtn=document.querySelector(".logOut");
+// const logoutBtn=document.querySelector(".logOut");
 
-logoutBtn.addEventListener("click",()=>{
-  localStorage.removeItem('userInfo');
-  window.location.href='/Validations/login.html';
-})
+// logoutBtn.addEventListener("click",()=>{
+//   localStorage.removeItem('userInfo');
+// })
